@@ -30,7 +30,7 @@ This plugin provides a systematic audit framework for content, applying four cri
 claude plugin marketplace add oalders/talk-about-us
 
 # Install the plugin
-claude plugin install talk-about-us@oalders
+claude plugin install talk-about-us@talk-about-us
 ```
 
 ### For Development
