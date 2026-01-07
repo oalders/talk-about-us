@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "talk-about-us",
-      "source": ".",
+      "source": "./",
       "description": "Audit content for shareability using Anil Dash's framework",
       "version": "1.0.0",
       "author": {
