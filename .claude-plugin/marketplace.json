@@ -1,0 +1,22 @@
+{
+  "name": "talk-about-us",
+  "displayName": "Talk About Us",
+  "version": "1.0.0",
+  "description": "Audit content for shareability using Anil Dash's framework - ensure others can authentically talk about your work without you present",
+  "author": "Olaf Alders",
+  "repository": "https://github.com/oalders/talk-about-us",
+  "plugins": [
+    {
+      "name": "talk-about-us",
+      "displayName": "Talk About Us",
+      "description": "Audit content for shareability using Anil Dash's framework",
+      "version": "1.0.0",
+      "skills": [
+        {
+          "name": "talk-about-us",
+          "path": "skills/talk-about-us/SKILL.md"
+        }
+      ]
+    }
+  ]
+}
