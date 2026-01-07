@@ -1,9 +1,9 @@
 ---
-name: auditing-shareable-content
+name: talk-about-us
 description: Use when reviewing website copy, SEO titles/descriptions, marketing content, or public messaging - applies Anil Dash's shareability framework to ensure others can authentically talk about your work without you present
 ---
 
-# Auditing Shareable Content
+# Talk About Us
 
 ## Overview
 
