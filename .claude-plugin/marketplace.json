@@ -1,22 +1,25 @@
 {
   "name": "talk-about-us",
-  "displayName": "Talk About Us",
-  "version": "1.0.0",
-  "description": "Audit content for shareability using Anil Dash's framework - ensure others can authentically talk about your work without you present",
-  "author": "Olaf Alders",
-  "repository": "https://github.com/oalders/talk-about-us",
+  "owner": {
+    "name": "Olaf Alders",
+    "email": "olaf@wundersolutions.com"
+  },
+  "metadata": {
+    "description": "Audit content for shareability using Anil Dash's framework - ensure others can authentically talk about your work without you present",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "talk-about-us",
-      "displayName": "Talk About Us",
+      "source": ".",
       "description": "Audit content for shareability using Anil Dash's framework",
       "version": "1.0.0",
-      "skills": [
-        {
-          "name": "talk-about-us",
-          "path": "skills/talk-about-us/SKILL.md"
-        }
-      ]
+      "author": {
+        "name": "Olaf Alders"
+      },
+      "repository": "https://github.com/oalders/talk-about-us",
+      "license": "MIT",
+      "skills": "./skills/"
     }
   ]
 }
