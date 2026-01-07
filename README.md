@@ -21,6 +21,28 @@ This plugin provides a systematic audit framework for content, applying four cri
 3. **The Emotional Resonance Test** - Is this emotionally gripping or comprehensively technical?
 4. **The Values-First Test** - Are values embedded in how people naturally discuss this?
 
+## Real-World Example
+
+Here's a small snippet of what the audit found when analyzing https://prettygoodping.com, a monitoring service:
+
+**❌ The Absence Test: FAIL**
+
+Current messaging was too technical: "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
+
+Problem: Heavy jargon that no one would naturally use when recommending the service. It requires technical knowledge to understand and isn't conversational.
+
+**✅ Recommended Fix:**
+
+**Before:**
+> "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
+> "PrettyGoodPing [Beta] is a configurable dashboard for web developers"
+
+**After:**
+> "Sleep better knowing your sites are being watched"
+> "We monitor your SSL certificates, domains, and uptime - and email you before things break. It's pretty good at it."
+
+*[See the complete audit below](#complete-example-audit)*
+
 ## Installation
 
 ### From GitHub
@@ -87,28 +109,6 @@ Content passes the shareability test when:
 - It's distinctive - not a platitude any competitor could claim
 - It leads with emotional resonance, not technical details
 - Values are embedded in the natural language people use
-
-### Real-World Example
-
-Here's what the audit found when analyzing PrettyGoodPing, a monitoring service:
-
-**❌ The Absence Test: FAIL**
-
-Current messaging was too technical: "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
-
-Problem: Heavy jargon that no one would naturally use when recommending the service. It requires technical knowledge to understand and isn't conversational.
-
-**✅ Recommended Fix:**
-
-**Before:**
-> "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
-> "PrettyGoodPing [Beta] is a configurable dashboard for web developers"
-
-**After:**
-> "Sleep better knowing your sites are being watched"
-> "We monitor your SSL certificates, domains, and uptime - and email you before things break. It's pretty good at it."
-
-*[See the complete audit below](#complete-example-audit)*
 
 ## Complete Example Audit
 
