@@ -1,0 +1,14 @@
+{
+  "name": "talk-about-us",
+  "version": "1.0.0",
+  "description": "Audit content for shareability using Anil Dash's framework - ensure others can authentically talk about your work without you present",
+  "author": {
+    "name": "Olaf Alders",
+    "url": "https://github.com/oalders"
+  },
+  "homepage": "https://github.com/oalders/talk-about-us",
+  "repository": "https://github.com/oalders/talk-about-us",
+  "license": "MIT",
+  "keywords": ["content", "marketing", "seo", "copywriting", "shareability", "messaging", "anil-dash"],
+  "skills": "./skills/"
+}
