@@ -6,9 +6,9 @@ A Claude Code plugin that helps you audit content for shareability using [Anil D
 
 ## About This Plugin
 
-**Framework:** Created by [Anil Dash](https://www.anildash.com/) - [read the original article](https://www.anildash.com/2025/12/05/talk-about-us-without-us/)
-**Plugin implementation:** [Olaf Alders](https://github.com/oalders)
-**Status:** Unofficial implementation - Anil Dash is not affiliated with or responsible for this plugin
+- **Framework:** Created by [Anil Dash](https://www.anildash.com/) - [read the original article](https://www.anildash.com/2025/12/05/talk-about-us-without-us/)
+- **Plugin implementation:** [Olaf Alders](https://github.com/oalders)
+- **Status:** Unofficial implementation - Anil Dash is not affiliated with or responsible for this plugin
 
 This is an independent implementation created to make Anil's shareability framework easily accessible in Claude Code. All credit for the framework and principles goes to Anil Dash. Bug reports and plugin issues should be directed to this repository, not to Anil.
 
