@@ -79,7 +79,7 @@ Create a [Custom GPT](https://chat.openai.com/gpts/editor) using the contents of
 
 See [docs/README.chatgpt.md](docs/README.chatgpt.md) for detailed instructions.
 
-### For Development
+### Local Development
 
 Clone and test locally:
 
@@ -142,143 +142,143 @@ Below is the full audit of PrettyGoodPing's front page, demonstrating all four t
 
 ### Talk About Us Audit: PrettyGoodPing
 
-**Content Summary**
-
-The front page presents PrettyGoodPing as a monitoring dashboard for web developers, focusing on SSL/TLS certificates, domain expiry, server ping, and uptime checks. The messaging is technical and feature-focused.
-
----
-
-**❌ 1. The Absence Test: FAIL**
-
-"Can someone authentically explain this when I'm not there?"
-
-Current messaging:
-- "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
-- "PrettyGoodPing [Beta] is a configurable dashboard for web developers"
-
-Issues:
-- Heavy jargon: "TLS/SSL," "domain registrations," "server uptime," "URL availability"
-- No one would naturally say this when recommending the service
-- Requires technical knowledge to understand what's being offered
-- Very formal, not conversational
-
-What someone might actually say: "It's a tool that watches your website stuff and emails you before things break" - but the current copy doesn't enable this kind of natural explanation.
-
----
-
-**❌ 2. The Distinctiveness Test: FAIL**
-
-"Does this say what only WE can say?"
-
-Generic phrases that any competitor could use:
-- "configurable dashboard for web developers"
-- The feature list (SSL, domain, ping, uptime) is standard for monitoring tools
-- "optional email alerts" - not distinctive
-
-What IS distinctive:
-- The name "PrettyGoodPing" has personality (modest, unpretentious)
-- Specific limits (25 certs, 5 domains) are concrete
-- "Built with Perl" goes against the grain
-
-Problem: The distinctive personality suggested by the name isn't carried into the copy. The messaging could belong to any monitoring service.
-
----
-
-**❌ 3. The Emotional Resonance Test: FAIL**
-
-"Is this emotionally gripping or comprehensively technical?"
-
-Current approach: Comprehensively technical
-- Lists features and limits without explaining why you should care
-- No connection to the pain point (expired certs breaking your site, surprise downtime)
-- No emotional benefit (peace of mind, sleeping soundly, avoiding embarrassment)
-- Missing the "what problem does this solve" narrative
-
-Missed opportunities:
-- The anxiety of discovering an expired SSL cert at 3am
-- The relief of proactive monitoring
-- The embarrassment of users seeing security warnings
-- The simplicity of "set it and forget it"
-
----
-
-**❌ 4. The Values-First Test: FAIL**
-
-"Are values embedded in how people naturally discuss this?"
-
-The name suggests values: "Pretty Good" implies modesty, pragmatism, honesty (not overpromising "amazing" or "ultimate" monitoring)
-
-The copy suggests different values: Technical precision, comprehensiveness, feature completeness
-
-Disconnect: The personality and values aren't woven into the language. There's an opportunity to embrace the "pretty good" ethos - reliable, unpretentious, does what it says on the tin.
-
----
-
-**Recommendations**
-
-1. **Lead with the problem/emotion, not features**
-
-   ❌ "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
-   ✅ "Never wake up to an expired SSL certificate again"
-   ✅ "Your sites are being watched, so you can sleep"
-
-2. **Use natural, shareable language**
-
-   ❌ "configurable dashboard for web developers focused on monitoring TLS/SSL certificates"
-   ✅ "A pretty good way to know when your website stuff is about to expire"
-   ✅ "We'll email you before your SSL certs, domains, or servers go sideways"
-
-3. **Embrace the personality from your name**
-
-   The "PrettyGoodPing" name is brilliant - modest, honest, approachable. Carry that through:
-   - "We're not fancy, but we're reliable"
-   - "Does what it says, and does it pretty well"
-   - "Simple monitoring that actually works"
-
-4. **Make it repeatable**
-
-   Test: Can someone explain this at a meetup without sounding robotic?
-
-   ❌ Current: "It's a configurable dashboard for monitoring TLS/SSL certificates, domain registrations, server uptime, and URL availability"
-
-   ✅ Better: "It watches your SSL certificates and domains, and emails you before they expire. Pretty straightforward."
-
-5. **Show concrete value, not just features**
-
-   Instead of listing emoji-decorated features, try:
-   - "25 SSL certificates watched 24/7"
-   - "Email alerts 10 days before disaster strikes"
-   - "Because finding out your cert expired from an angry user email is the worst"
-
----
-
-**Specific Rewrite Suggestions**
-
-Hero Section (current):
-> "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
-> "PrettyGoodPing [Beta] is a configurable dashboard for web developers"
-
-Hero Section (suggested):
-> "Sleep better knowing your sites are being watched"
-> "We monitor your SSL certificates, domains, and uptime - and email you before things break. It's pretty good at it."
-
-Feature Section (current):
-> 🔒 TLS/SSL Cert Expiry
-> 🌐 Domain Name Expiry
-
-Feature Section (suggested):
-> 🔒 Never miss an SSL renewal - We'll bug you 10 days before it expires
-> 🌐 Your domain won't disappear - 3 weeks warning before expiry
-
----
-
-**Summary Score: 0/4 Tests Passed**
-
-The content is technically accurate but fails all four shareability tests. It's jargon-heavy, generic, emotionally flat, and doesn't embody the personality suggested by the excellent brand name.
-
-**Key insight:** You have a distinctive, personable name ("PrettyGoodPing") but corporate, generic copy. Let the personality shine through in the messaging.
-
----
+> **Content Summary**
+>
+> The front page presents PrettyGoodPing as a monitoring dashboard for web developers, focusing on SSL/TLS certificates, domain expiry, server ping, and uptime checks. The messaging is technical and feature-focused.
+>
+> ---
+>
+> **❌ 1. The Absence Test: FAIL**
+>
+> "Can someone authentically explain this when I'm not there?"
+>
+> Current messaging:
+> - "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
+> - "PrettyGoodPing [Beta] is a configurable dashboard for web developers"
+>
+> Issues:
+> - Heavy jargon: "TLS/SSL," "domain registrations," "server uptime," "URL availability"
+> - No one would naturally say this when recommending the service
+> - Requires technical knowledge to understand what's being offered
+> - Very formal, not conversational
+>
+> What someone might actually say: "It's a tool that watches your website stuff and emails you before things break" - but the current copy doesn't enable this kind of natural explanation.
+>
+> ---
+>
+> **❌ 2. The Distinctiveness Test: FAIL**
+>
+> "Does this say what only WE can say?"
+>
+> Generic phrases that any competitor could use:
+> - "configurable dashboard for web developers"
+> - The feature list (SSL, domain, ping, uptime) is standard for monitoring tools
+> - "optional email alerts" - not distinctive
+>
+> What IS distinctive:
+> - The name "PrettyGoodPing" has personality (modest, unpretentious)
+> - Specific limits (25 certs, 5 domains) are concrete
+> - "Built with Perl" goes against the grain
+>
+> Problem: The distinctive personality suggested by the name isn't carried into the copy. The messaging could belong to any monitoring service.
+>
+> ---
+>
+> **❌ 3. The Emotional Resonance Test: FAIL**
+>
+> "Is this emotionally gripping or comprehensively technical?"
+>
+> Current approach: Comprehensively technical
+> - Lists features and limits without explaining why you should care
+> - No connection to the pain point (expired certs breaking your site, surprise downtime)
+> - No emotional benefit (peace of mind, sleeping soundly, avoiding embarrassment)
+> - Missing the "what problem does this solve" narrative
+>
+> Missed opportunities:
+> - The anxiety of discovering an expired SSL cert at 3am
+> - The relief of proactive monitoring
+> - The embarrassment of users seeing security warnings
+> - The simplicity of "set it and forget it"
+>
+> ---
+>
+> **❌ 4. The Values-First Test: FAIL**
+>
+> "Are values embedded in how people naturally discuss this?"
+>
+> The name suggests values: "Pretty Good" implies modesty, pragmatism, honesty (not overpromising "amazing" or "ultimate" monitoring)
+>
+> The copy suggests different values: Technical precision, comprehensiveness, feature completeness
+>
+> Disconnect: The personality and values aren't woven into the language. There's an opportunity to embrace the "pretty good" ethos - reliable, unpretentious, does what it says on the tin.
+>
+> ---
+>
+> **Recommendations**
+>
+> 1. **Lead with the problem/emotion, not features**
+>
+>    ❌ "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
+>    ✅ "Never wake up to an expired SSL certificate again"
+>    ✅ "Your sites are being watched, so you can sleep"
+>
+> 2. **Use natural, shareable language**
+>
+>    ❌ "configurable dashboard for web developers focused on monitoring TLS/SSL certificates"
+>    ✅ "A pretty good way to know when your website stuff is about to expire"
+>    ✅ "We'll email you before your SSL certs, domains, or servers go sideways"
+>
+> 3. **Embrace the personality from your name**
+>
+>    The "PrettyGoodPing" name is brilliant - modest, honest, approachable. Carry that through:
+>    - "We're not fancy, but we're reliable"
+>    - "Does what it says, and does it pretty well"
+>    - "Simple monitoring that actually works"
+>
+> 4. **Make it repeatable**
+>
+>    Test: Can someone explain this at a meetup without sounding robotic?
+>
+>    ❌ Current: "It's a configurable dashboard for monitoring TLS/SSL certificates, domain registrations, server uptime, and URL availability"
+>
+>    ✅ Better: "It watches your SSL certificates and domains, and emails you before they expire. Pretty straightforward."
+>
+> 5. **Show concrete value, not just features**
+>
+>    Instead of listing emoji-decorated features, try:
+>    - "25 SSL certificates watched 24/7"
+>    - "Email alerts 10 days before disaster strikes"
+>    - "Because finding out your cert expired from an angry user email is the worst"
+>
+> ---
+>
+> **Specific Rewrite Suggestions**
+>
+> Hero Section (current):
+> > "Monitor SSL/TLS & Domain Expiry, Uptime, and Server Ping"
+> > "PrettyGoodPing [Beta] is a configurable dashboard for web developers"
+>
+> Hero Section (suggested):
+> > "Sleep better knowing your sites are being watched"
+> > "We monitor your SSL certificates, domains, and uptime - and email you before things break. It's pretty good at it."
+>
+> Feature Section (current):
+> > 🔒 TLS/SSL Cert Expiry
+> > 🌐 Domain Name Expiry
+>
+> Feature Section (suggested):
+> > 🔒 Never miss an SSL renewal - We'll bug you 10 days before it expires
+> > 🌐 Your domain won't disappear - 3 weeks warning before expiry
+>
+> ---
+>
+> **Summary Score: 0/4 Tests Passed**
+>
+> The content is technically accurate but fails all four shareability tests. It's jargon-heavy, generic, emotionally flat, and doesn't embody the personality suggested by the excellent brand name.
+>
+> **Key insight:** You have a distinctive, personable name ("PrettyGoodPing") but corporate, generic copy. Let the personality shine through in the messaging.
+>
+> ---
 
 ## Credits
 
