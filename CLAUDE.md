@@ -8,7 +8,7 @@ This is a multi-platform skill that implements Anil Dash's content shareability 
 
 **Core principle:** "They have to be able to talk about us without us." - Anil Dash
 
-**Supported platforms:** Claude Code, Codex, OpenCode
+**Supported platforms:** Claude Code, Codex, OpenCode, ChatGPT
 
 ## Development Commands
 
@@ -37,6 +37,7 @@ skills/
 .opencode/
 └── INSTALL.md                # OpenCode installation instructions
 docs/
+├── README.chatgpt.md         # ChatGPT usage guide
 ├── README.codex.md           # Codex usage guide
 └── README.opencode.md        # OpenCode usage guide
 ```

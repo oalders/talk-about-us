@@ -4,7 +4,7 @@
 
 A skill that helps you audit content for shareability using [Anil Dash's framework](https://www.anildash.com/2025/12/05/talk-about-us-without-us/). Ensure your website copy, SEO descriptions, and marketing content are so clear and compelling that others can share them authentically in your absence.
 
-**Supported platforms:** Claude Code, Codex, OpenCode
+**Supported platforms:** Claude Code, Codex, OpenCode, ChatGPT
 
 ## About
 
@@ -72,6 +72,12 @@ Tell OpenCode:
 > Fetch and follow instructions from https://raw.githubusercontent.com/oalders/talk-about-us/main/.opencode/INSTALL.md
 
 Or see [docs/README.opencode.md](docs/README.opencode.md) for manual installation.
+
+### ChatGPT
+
+Create a [Custom GPT](https://chat.openai.com/gpts/editor) using the contents of [SKILL.md](skills/talk-about-us/SKILL.md) as the instructions, or paste it directly into any conversation.
+
+See [docs/README.chatgpt.md](docs/README.chatgpt.md) for detailed instructions.
 
 ### For Development
 
