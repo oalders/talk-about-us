@@ -4,9 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Claude Code plugin that implements Anil Dash's content shareability framework. It provides a skill (`talk-about-us`) that audits website copy, SEO descriptions, and marketing content to ensure others can authentically discuss the work without the author present.
+This is a multi-platform skill that implements Anil Dash's content shareability framework. It audits website copy, SEO descriptions, and marketing content to ensure others can authentically discuss the work without the author present.
 
 **Core principle:** "They have to be able to talk about us without us." - Anil Dash
+
+**Supported platforms:** Claude Code, Codex, OpenCode
 
 ## Development Commands
 
@@ -23,18 +25,23 @@ claude plugin install talk-about-us@talk-about-us
 
 ## Architecture
 
-This is a documentation-only plugin with no build system, dependencies, or executable code.
+This is a documentation-only skill with no build system, dependencies, or executable code.
 
 ```
-.claude-plugin/
-├── plugin.json          # Plugin metadata (name, version, author)
-└── marketplace.json     # Claude Code marketplace registration
 skills/
 └── talk-about-us/
-    └── SKILL.md         # The skill definition and audit framework
+    └── SKILL.md              # The skill definition and audit framework
+.claude-plugin/               # Claude Code plugin metadata
+.codex/
+└── INSTALL.md                # Codex installation instructions
+.opencode/
+└── INSTALL.md                # OpenCode installation instructions
+docs/
+├── README.codex.md           # Codex usage guide
+└── README.opencode.md        # OpenCode usage guide
 ```
 
-**How it works:** Claude Code loads SKILL.md when users work with content that matches the skill's description. The skill guides Claude through four tests (Absence, Distinctiveness, Emotional Resonance, Values-First) to audit content shareability.
+**How it works:** The AI assistant loads SKILL.md when users work with content that matches the skill's description. The skill guides the assistant through four tests (Absence, Distinctiveness, Emotional Resonance, Values-First) to audit content shareability.
 
 ## Key Files
 

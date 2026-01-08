@@ -2,15 +2,17 @@
 
 > "They have to be able to talk about us without us." - Anil Dash
 
-A Claude Code plugin that helps you audit content for shareability using [Anil Dash's framework](https://www.anildash.com/2025/12/05/talk-about-us-without-us/). Ensure your website copy, SEO descriptions, and marketing content are so clear and compelling that others can share them authentically in your absence.
+A skill that helps you audit content for shareability using [Anil Dash's framework](https://www.anildash.com/2025/12/05/talk-about-us-without-us/). Ensure your website copy, SEO descriptions, and marketing content are so clear and compelling that others can share them authentically in your absence.
 
-## About This Plugin
+**Supported platforms:** Claude Code, Codex, OpenCode
+
+## About
 
 - **Framework:** Created by [Anil Dash](https://www.anildash.com/) - [read the original article](https://www.anildash.com/2025/12/05/talk-about-us-without-us/)
-- **Plugin implementation:** [Olaf Alders](https://github.com/oalders)
-- **Status:** Unofficial implementation - Anil Dash is not affiliated with or responsible for this plugin
+- **Skill implementation:** [Olaf Alders](https://github.com/oalders)
+- **Status:** Unofficial implementation - Anil Dash is not affiliated with or responsible for this project
 
-This is an independent implementation created to make Anil's shareability framework easily accessible in Claude Code. All credit for the framework and principles goes to Anil Dash. Bug reports and plugin issues should be directed to this repository, not to Anil.
+This is an independent implementation created to make Anil's shareability framework easily accessible in AI coding assistants. All credit for the framework and principles goes to Anil Dash. Bug reports and issues should be directed to this repository, not to Anil.
 
 ## What This Does
 
@@ -45,7 +47,7 @@ Problem: Heavy jargon that no one would naturally use when recommending the serv
 
 ## Installation
 
-### From GitHub
+### Claude Code
 
 ```bash
 # Add the marketplace
@@ -54,6 +56,22 @@ claude plugin marketplace add oalders/talk-about-us
 # Install the plugin
 claude plugin install talk-about-us@talk-about-us
 ```
+
+### Codex
+
+Tell Codex:
+
+> Fetch and follow instructions from https://raw.githubusercontent.com/oalders/talk-about-us/main/.codex/INSTALL.md
+
+Or see [docs/README.codex.md](docs/README.codex.md) for manual installation.
+
+### OpenCode
+
+Tell OpenCode:
+
+> Fetch and follow instructions from https://raw.githubusercontent.com/oalders/talk-about-us/main/.opencode/INSTALL.md
+
+Or see [docs/README.opencode.md](docs/README.opencode.md) for manual installation.
 
 ### For Development
 
