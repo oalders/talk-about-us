@@ -10,7 +10,7 @@ Create a reusable GPT that has the framework built in.
 2. Click "Create a GPT"
 3. Configure:
    - **Name:** Talk About Us
-   - **Description:** Audit content for shareability using Anil Dash's framework
+   - **Description:** Use when auditing or reviewing website copy, SEO titles/descriptions, marketing content, or public messaging - applies Anil Dash's shareability framework to ensure others can authentically talk about your work without you present
    - **Instructions:** Copy the entire contents of [SKILL.md](../skills/talk-about-us/SKILL.md)
 4. Save and publish (public or link-only)
 
