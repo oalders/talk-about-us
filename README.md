@@ -2,6 +2,8 @@
 
 > "They have to be able to talk about us without us." - Anil Dash
 
+<img src="images/featured.jpeg" alt="Microphone" width="600">
+
 A skill that helps you audit content for shareability using [Anil Dash's framework](https://www.anildash.com/2025/12/05/talk-about-us-without-us/). Ensure your website copy, SEO descriptions, and marketing content are so clear and compelling that others can share them authentically in your absence.
 
 **Supported platforms:** Claude Code, Codex, OpenCode, ChatGPT
@@ -10,6 +12,7 @@ A skill that helps you audit content for shareability using [Anil Dash's framewo
 
 - **Framework:** Created by [Anil Dash](https://www.anildash.com/) - [read the original article](https://www.anildash.com/2025/12/05/talk-about-us-without-us/)
 - **Skill implementation:** [Olaf Alders](https://github.com/oalders)
+- The motivation: [my blog post](https://www.olafalders.com/2026/01/15/can-others-explain-my-work-without-me/)
 - **Status:** Unofficial implementation - Anil Dash is not affiliated with or responsible for this project
 
 This is an independent implementation created to make Anil's shareability framework easily accessible in AI coding assistants. All credit for the framework and principles goes to Anil Dash. Bug reports and issues should be directed to this repository, not to Anil.
@@ -291,3 +294,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Contributing
 
 Found a way to improve the audit framework? Suggestions welcome! Please open an issue or submit a pull request.
+
+## Image Attribution
+
+Header image: <a href="https://www.flickr.com/photos/28687472@N05/9434755558" target="_blank">Microphone</a> by <a href="https://www.flickr.com/photos/28687472@N05" target="_blank">drestwn</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=openverse" target="_blank">CC BY 2.0</a>.
