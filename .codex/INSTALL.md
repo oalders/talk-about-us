@@ -1,19 +1,18 @@
 # Installing Talk About Us for Codex
 
-Add the shareability audit skill to your Codex environment.
+Codex discovers skills from skill directories containing a `SKILL.md` file. For a user skill, install it under `~/.agents/skills`; `~/.codex/skills` remains supported for compatibility. See the [Codex skills guide](https://developers.openai.com/codex/skills).
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   mkdir -p ~/.codex/skills/talk-about-us
-   git clone https://github.com/oalders/talk-about-us.git ~/.codex/skills/talk-about-us
-   ```
+Clone the repository alongside your other user skills, then link the skill directory itself:
 
-2. **Create a symlink to the skill**:
-   ```bash
-   ln -sf ~/.codex/skills/talk-about-us/skills/talk-about-us ~/.codex/skills/talk-about-us-skill
-   ```
+```bash
+mkdir -p ~/.agents/skills
+git clone https://github.com/oalders/talk-about-us.git ~/.agents/skills/talk-about-us-repo
+ln -s ~/.agents/skills/talk-about-us-repo/skills/talk-about-us ~/.agents/skills/talk-about-us
+```
+
+If you set `CODEX_HOME` to a custom Codex home and prefer its legacy skill location, replace `~/.agents/skills` above with `"${CODEX_HOME:-$HOME/.codex}/skills"`.
 
 ## Usage
 
@@ -29,10 +28,12 @@ Or reference it directly:
 Use the talk-about-us skill to audit this paragraph: "We're passionate about innovation..."
 ```
 
+Restart Codex after installing so it discovers the new skill. The skill can then be invoked by asking Codex to use `talk-about-us`.
+
 ## Updating
 
 ```bash
-cd ~/.codex/skills/talk-about-us
+cd ~/.agents/skills/talk-about-us-repo
 git pull
 ```
 
@@ -42,4 +43,4 @@ This skill implements [Anil Dash's shareability framework](https://www.anildash.
 
 ## Attribution
 
-Installation pattern based on [obra/superpowers/.codex/INSTALL.md](https://github.com/obra/superpowers/blob/main/.codex/INSTALL.md).
+The skill format follows the [Agent Skills specification](https://agentskills.io/specification); Codex discovery and locations are documented in the [Codex skills guide](https://developers.openai.com/codex/skills).

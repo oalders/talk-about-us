@@ -40,10 +40,12 @@ Apply the shareability audit to this paragraph: "We leverage innovative solution
 
 ## Skill Location
 
-After installation, the skill is located at:
+After installation, the skill is available to Codex from:
 ```
-~/.codex/skills/talk-about-us-skill/SKILL.md
+~/.agents/skills/talk-about-us/SKILL.md
 ```
+
+For Codex's legacy user skill directory, the corresponding path is `${CODEX_HOME:-~/.codex}/skills/talk-about-us/SKILL.md`.
 
 ## Getting Help
 
