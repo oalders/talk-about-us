@@ -78,9 +78,8 @@ Or see [docs/README.opencode.md](docs/README.opencode.md) for manual installatio
 
 ### ChatGPT
 
-Create a [Custom GPT](https://chat.openai.com/gpts/editor) using the contents of [SKILL.md](skills/talk-about-us/SKILL.md) as the instructions, or paste it directly into any conversation.
+Paste the contents of [SKILL.md](skills/talk-about-us/SKILL.md) into a ChatGPT conversation to use the framework. New Custom GPT creation is currently unavailable on personal accounts; availability in managed workspaces varies. See [OpenAI's GPT guide](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) and [detailed ChatGPT instructions](docs/README.chatgpt.md).
 
-See [docs/README.chatgpt.md](docs/README.chatgpt.md) for detailed instructions.
 
 ### Local Development
 

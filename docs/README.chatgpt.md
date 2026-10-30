@@ -2,27 +2,12 @@
 
 This guide explains how to use the Talk About Us shareability audit with ChatGPT.
 
-## Option 1: Create a Custom GPT
+## Recommended: Paste into a conversation
 
-Create a reusable GPT that has the framework built in.
+This works wherever you can use ChatGPT and does not require setting up a GPT:
 
-1. Go to [chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor)
-2. Click "Create a GPT"
-3. Configure:
-   - **Name:** Talk About Us
-   - **Description:** Use when auditing or reviewing website copy, SEO titles/descriptions, marketing content, or public messaging - applies Anil Dash's shareability framework to ensure others can authentically talk about your work without you present
-   - **Instructions:** Copy the entire contents of [SKILL.md](../skills/talk-about-us/SKILL.md)
-4. Save and publish (public or link-only)
-
-Now you can start conversations with your GPT and it will apply the framework automatically.
-
-## Option 2: Paste into a Conversation
-
-For one-off audits, paste the framework directly into any ChatGPT conversation.
-
-1. Copy the contents of [SKILL.md](../skills/talk-about-us/SKILL.md)
-2. Start a new ChatGPT conversation
-3. Paste the framework, then add your request:
+1. Copy the contents of [SKILL.md](../skills/talk-about-us/SKILL.md).
+2. Paste them into a new ChatGPT conversation, followed by your request:
 
 ```
 [Paste SKILL.md contents here]
@@ -33,6 +18,16 @@ Now audit this content for shareability:
 
 [Your content here]
 ```
+
+You can add a short summary of the framework to ChatGPT Custom Instructions if you want it considered across your chats. Custom Instructions are account-level preferences and have character limits, so the full skill text may not fit. See [Custom Instructions](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions) for current limits and setup.
+
+## Custom GPTs (availability varies)
+
+As of October 2026, new GPT creation is unavailable on personal ChatGPT accounts. Creation and publishing in managed workspaces depend on workspace eligibility, settings, and permissions. OpenAI is also transitioning custom GPT workflows to plugins. Check the current [GPT creation and editing guidance](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) before using this option.
+
+If your account or workspace still allows GPT creation, open the [GPTs area](https://chatgpt.com/gpts), choose **Create**, and add the contents of [SKILL.md](../skills/talk-about-us/SKILL.md) to the GPT's Instructions. Use Preview to check its responses, then save or share it according to the options available to your workspace. Public or link sharing is optional.
+
+For details on account availability and creating or editing GPTs, see OpenAI's [GPT guide](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts).
 
 ## Usage Examples
 

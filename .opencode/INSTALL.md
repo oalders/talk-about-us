@@ -1,38 +1,39 @@
 # Installing Talk About Us for OpenCode
 
-Add the shareability audit skill to your OpenCode environment.
+Add the shareability audit skill to your OpenCode environment. OpenCode reads skills from directories containing `SKILL.md`; see the [OpenCode skills guide](https://opencode.ai/docs/skills) for supported locations and format details.
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   mkdir -p ~/.config/opencode/skills
-   git clone https://github.com/oalders/talk-about-us.git ~/.config/opencode/skills/talk-about-us
-   ```
+Clone the repository next to your other global OpenCode skills, then link the skill directory itself:
 
-2. **Create a symlink to the skill**:
-   ```bash
-   ln -sf ~/.config/opencode/skills/talk-about-us/skills/talk-about-us ~/.config/opencode/skills/talk-about-us-skill
-   ```
+```bash
+mkdir -p ~/.config/opencode/skills
+git clone https://github.com/oalders/talk-about-us.git ~/.config/opencode/skills/talk-about-us-repo
+ln -s ~/.config/opencode/skills/talk-about-us-repo/skills/talk-about-us ~/.config/opencode/skills/talk-about-us
+```
+
+Alternatively, copy `skills/talk-about-us` into `.opencode/skills/talk-about-us` in a project to make the skill available only in that project.
 
 ## Usage
 
-Ask OpenCode to audit your content:
+Load the skill explicitly with `@talk-about-us`:
 
 ```
-Review the copy on our homepage for shareability using the talk-about-us skill
+@talk-about-us Review the copy on our homepage for shareability
 ```
 
 Or reference it directly:
 
 ```
-Use the talk-about-us skill to audit this paragraph: "We're passionate about innovation..."
+@talk-about-us Audit this paragraph: "We're passionate about innovation..."
 ```
+
+Restart OpenCode after installing so it discovers the skill.
 
 ## Updating
 
 ```bash
-cd ~/.config/opencode/skills/talk-about-us
+cd ~/.config/opencode/skills/talk-about-us-repo
 git pull
 ```
 
@@ -40,6 +41,4 @@ git pull
 
 This skill implements [Anil Dash's shareability framework](https://www.anildash.com/2025/12/05/talk-about-us-without-us/) to audit whether your content can be authentically shared by others without you present.
 
-## Attribution
-
-Installation pattern based on [obra/superpowers/.opencode/INSTALL.md](https://github.com/obra/superpowers/blob/main/.opencode/INSTALL.md).
+Skill format and locations follow the [OpenCode skills guide](https://opencode.ai/docs/skills).
